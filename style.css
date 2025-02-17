@@ -1,0 +1,63 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Логотип */
+.header .logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+/* Заголовки */
+.header h1 {
+    color: #FFD700;
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+/* Секции */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.description, .how-it-works, .roadmap, .community {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+/* Кнопка */
+.buy-now {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.buy-now:hover {
+    background-color: #FFC107;
+}
